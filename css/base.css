@@ -1,0 +1,10 @@
+
+body{
+    background-color:hotpink;
+}
+
+@media(min-width: 768px){
+    body{
+        background-color:lightpink
+    }
+}
