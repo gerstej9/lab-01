@@ -3,7 +3,6 @@
     text-align: center;
 }
 
-
 header{
     height:75px;
     width:100%;
@@ -18,20 +17,20 @@ header{
     line-height:150px;
 }
 
-.medium div{
+.medium{
     height:125px;
     width:100%;
     line-height:125px;
 }
 
-.square-top div{
+.square-top{
     width:50%;
     height:250px;
     float:left;
     line-height:250px;
 }
 
-.square-bottom div{
+.square-bottom{
     width:50%;
     height:250px;
     float:left;
@@ -47,6 +46,10 @@ header{
 
 @media(min-width: 768px){
 
+    article{
+        height: 100%;
+    }
+
     header{
         height:100px;
         line-height:100px;
@@ -59,21 +62,21 @@ header{
         float:left;
     }
 
-    .medium div{
+    .medium{
         height:200px;
         width:39.6%;
         line-height:200px;
         float:left;
     }
 
-    .square-top div{
+    .square-top{
         width:19.8%;
         height:250px;
         float:left;
         line-height:250px;
     }
     
-    .square-bottom div{
+    .square-bottom{
         width:19.8%;
         height:250px;
         float:left;
@@ -85,5 +88,7 @@ header{
         float:left;
         height: 150px;
         width:79.2%;
+        line-height:150px;
     }
+
 }

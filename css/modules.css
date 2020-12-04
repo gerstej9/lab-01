@@ -34,6 +34,49 @@ background-color: #ffc0cb99;
     background-color: #e60ceee5;
 }
 
+@media(min-width: 500px){
+    body{
+    background-color:#00808099;
+    }
+
+    #a{
+        background-color: #00808099;
+        }
+        
+        #b{
+            background-color: #00808085;
+        }
+        
+        #c{
+            background-color: #00808070;
+        }
+        
+        #d{
+            background-color: #00808055;
+        }
+        
+        #e{
+            background-color: #00808040;
+        }
+        
+        #f{
+            background-color: #00808025;
+        }
+        
+        #g{
+            background-color: #00808010;
+        }
+        
+        #h{
+            background-color: #00808002;
+        }
+        
+        #i{
+            background-color: #2cdddd99;
+        }
+
+}
+
 @media(min-width: 768px){
 
     #a{
